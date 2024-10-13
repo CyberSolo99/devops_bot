@@ -9,4 +9,13 @@
 ```bash
 docker compose build
 ```
+После того как процесс закончится
+```bash
+docker network create my_network
+```
+И запуск контейнеров
+```bash
+docker compose up
+```
+
 Для проекта использовалась Ubuntu 22.04 server
