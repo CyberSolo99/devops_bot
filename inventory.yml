@@ -1,0 +1,38 @@
+all:
+  hosts:
+    bot:
+      ansible_user: ansible
+      ansible_ssh_pass: 1234
+      ansible_host: 192.168.137.160
+    db:
+      ansible_user: ansible
+      ansible_ssh_pass: 1234
+      ansible_host: 192.168.137.168
+    db_repl:
+      ansible_user: ansible
+      ansible_ssh_pass: 1234
+      ansible_host: 192.168.137.169
+
+  vars:
+    TOKEN: 7626099102:AAEXXKWouxrGVIfuhtEwyu_Tom05NSiwAZ8
+    RM_HOST: 192.168.137.160
+    RM_PORT: 22
+    RM_USER: bot
+    RM_PASSWORD: 1234
+
+    DB_USER: postgres
+    DB_PASSWORD: Qq12345
+    DB_HOST: 192.168.137.168
+    DB_PORT: 5432
+    DB_DATABASE: db_bot
+
+    DB_USER_SSH: db
+    DB_PASSWORD_SSH: 1234
+    DB_PORT_SSH: 22
+
+    DB_REPL_USER: repl_user
+    DB_REPL_PASSWORD: Qq12345
+    DB_REPL_HOST: 192.168.137.169
+    DB_REPL_PORT: 5432
+
+    
