@@ -15,4 +15,4 @@ ansible-playbook playbook_bot.yml
 
 Добавить пользователей на ваших машинах в группу ansible
 
-
+Проект был реализован на Ubuntu 22.04 server
