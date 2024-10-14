@@ -11,14 +11,6 @@ git clone https://github.com/CyberSolo99/devops_bot.git
 ## Запуск 
 В корневой директории проекта:
 ```bash
-docker compose build
-```
-После того как процесс закончится
-```bash
-docker network create my_network
-```
-И запуск контейнеров
-```bash
 docker compose up
 ```
 
